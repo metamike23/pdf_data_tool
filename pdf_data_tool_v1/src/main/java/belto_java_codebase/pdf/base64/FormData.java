@@ -24,18 +24,17 @@ public class FormData {
 		Map<String, String> dataMap = this.key_value_pairs;
 		ObjectMapper objectMapper = new ObjectMapper();
 		 // Convert Map to JSON string
-        String jsonString = objectMapper.writeValueAsString(dataMap);
-        String[] tokens = jsonString.split(",");
-        System.out.println("{");
-        System.out.println("\t[");
-        for(String token : tokens) {
-        	if(!token.contains("Off")) {
+        	String jsonString = objectMapper.writeValueAsString(dataMap);
+        	String[] tokens = jsonString.split(",");
+        	System.out.println("{");
+        	System.out.println("\t[");
+        	for(String token : tokens) {
+        		if(!token.contains("Off")) {
         		System.out.println("\t " + token + ",");
+        		}
         	}
-        }
-        System.out.println("\t]");
-        System.out.println("}");
-		
+        	System.out.println("\t]");
+        	System.out.println("}");
 	}
 	
 	
