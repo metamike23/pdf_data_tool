@@ -7,15 +7,12 @@ import java.util.Map;
 public class App {
 	
 	// Get the project directory
-	String output_folder_path = System.getProperty("user.dir") + File.separator + "target" + File.separator + "output" + File.separator;
+	// String output_folder_path = System.getProperty("user.dir") + File.separator + "target" + File.separator + "output" + File.separator;
 	
 
 	public static void main(String[] args) throws IOException {
 		
-		
 		String fileName = "fulldemo2.pdf";
-		
-	
 
 		System.out.println("\nFields and Values as a JSON object\n");
 		
@@ -29,19 +26,6 @@ public class App {
 		FormData fd = new FormData(key_value_pairs, txt);
 		fd.exportToJSON();
 				
-				
-				
-				
-			
-			
-	
-		
-		
-		
-
 	}
 
 }
-
-// This piece of text represents the logo for fafsa on the first page
-// The Federal Student Aid logo and FAFSA are registered trademarks of Federal Student Aid, U.S. Department of Education.
