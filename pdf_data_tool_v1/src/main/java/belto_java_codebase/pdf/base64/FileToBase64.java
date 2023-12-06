@@ -24,24 +24,19 @@ public class FileToBase64 {
     }
 
 
-    // Private method to convert the file to Base64
+    // private method to convert the file to Base64
     private void convertFileToBase64(File file) throws IOException {
         try (FileInputStream fileInputStream = new FileInputStream(file)) {
-            // Extract the content of the file as bytes
             byte[] fileBytes = IOUtils.toByteArray(fileInputStream);
             byteArray = fileBytes;
-
-            // Encode the bytes into a Base64 string
             base64 = Base64.getEncoder().encodeToString(fileBytes);
         }
     }
     
-    // method to get the file extension
+    // private method to get the file extension
     private String getFileExtension(File file) {
         String fileName = file.getName();
         int lastDotIndex = fileName.lastIndexOf('.');
-        
-        // Check if a dot is present in the file name and if it is not the last character
         if (lastDotIndex > 0 && lastDotIndex < fileName.length() - 1) {
             return fileName.substring(lastDotIndex + 1);
         } else {
