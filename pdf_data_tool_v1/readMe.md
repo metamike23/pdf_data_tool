@@ -41,7 +41,6 @@ This project utilizes the following dependencies:
     <version>2.12.3</version>
 </dependency>
 
-'''
 
 ## Dependency Management
 
