@@ -36,6 +36,10 @@ public class FormData {
         	System.out.println("\t]");
         	System.out.println("}");
 	}
+
+
+	// Need Getter methods for private instance variables
+	// Need the code to create an actual JSON object 
 	
 	
 	
