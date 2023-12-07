@@ -1,39 +1,27 @@
 # Java PDF Data Extractor
-- Can be uploaded as files or converted from their base64 String representation
 
--------------------------------------------------------------------------------------
+Welcome to the Java PDF Data Extractor, a versatile tool that enables you to seamlessly handle PDF files. Whether you need to extract text, form data, or convert between base64 and PDF, this tool has you covered.
+
+## Features
 
 ### Base64ToPDF
-- The Base64ToPDF class converts the base64 String to a pdf file and stores it in the target/output/ folder
-
-------------------------------------------------------------------------------------------------
+Easily convert base64 strings to PDF files with the `Base64ToPDF` class. Your converted files will be neatly stored in the `target/output/` folder for convenient access.
 
 ### PDFToText
-- The PDFToText class takes a pdf file and extracts both its text and form data
-- The unstrunctured text is extracted as a String
-- Form data is extracted as a Key Value Pair Map
-
---------------------------------------------------------------------------------------------------
+Harness the power of `PDFToText` to extract both text and form data from your PDF files. Unstructured text is captured as a String, while form data is neatly organized into a Key-Value Pair Map for effortless analysis.
 
 ### FormData
-- The FormData class holds all the data from the pdf file in text form
-- The data can be exorted as JSON but more export formats will be added
-
--------------------------------------------------------------------------------------------------------
+The `FormData` class serves as a comprehensive container for all the data extracted from PDF files. Export your data as JSON, with support for additional export formats on the horizon.
 
 ### FileToBase64
-- The FileToBase64 class is used to convert a file of any type into its base64 String representation
+Need to convert files of any type into base64 string representation? The `FileToBase64` class streamlines this process, offering versatility in handling diverse file formats.
 
-------------------------------------------------------------------------------------------------------
+## Improvements on the Horizon
 
-## Improvements 
+### 1. Multithreading with java.nio
+Enhance the tool's performance by implementing multithreading using `java.nio`. Unlike `java.io`, `java.nio` supports concurrent I/O streams, paving the way for more efficient and responsive operations.
 
-#### 1
-- I am using the java.io library to handle the Input/Output for the Application
-- The standard java.io library does not support multithreading
-- So I would need to use java.nio instead to make the tool be able to use multiple threads
-- java.nio can handle concurrent IO streams
+### 2. Code Optimization with Class Hierarchy and Interfaces
+Efficiency matters, and we're on a mission to reduce redundancy in the code. By introducing class hierarchies and interfaces, we aim to streamline features, making the codebase more elegant and maintainable. Expect a leaner and more cohesive structure in future updates.
 
-#### 2
-- Some of the code is redundant so I could use class hierachy's and interfaces to reduce this
-- A lot of features will share behavior so this can help reduce the amount of code needed to be written
+Thank you for choosing the Java PDF Data Extractor. We're committed to continuous improvement, and your feedback is invaluable in shaping the future of this tool. Stay tuned for more updates and enhancements!
