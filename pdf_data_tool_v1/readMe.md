@@ -41,6 +41,7 @@ This project utilizes the following dependencies:
     <version>2.12.3</version>
 </dependency>
 
-```xml
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Thank you for choosing the Java PDF Data Extractor. We're committed to continuous improvement, and your feedback is invaluable in shaping the future of this tool. Stay tuned for more updates and enhancements!
