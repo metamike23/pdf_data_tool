@@ -24,4 +24,21 @@ Enhance the tool's performance by implementing multithreading using `java.nio`. 
 ### 2. Code Optimization with Class Hierarchy and Interfaces
 Efficiency matters, and we're on a mission to reduce redundancy in the code. By introducing class hierarchies and interfaces, we aim to streamline features, making the codebase more elegant and maintainable. Expect a leaner and more cohesive structure in future updates.
 
+## Dependencies
+
+This project utilizes the following dependencies:
+
+```xml
+<dependency>
+    <groupId>org.apache.pdfbox</groupId>
+    <artifactId>pdfbox</artifactId>
+    <version>2.0.30</version>
+</dependency>
+
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.12.3</version>
+</dependency>
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Thank you for choosing the Java PDF Data Extractor. We're committed to continuous improvement, and your feedback is invaluable in shaping the future of this tool. Stay tuned for more updates and enhancements!
