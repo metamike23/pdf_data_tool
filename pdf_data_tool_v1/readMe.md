@@ -28,19 +28,10 @@ Efficiency matters, and we're on a mission to reduce redundancy in the code. By 
 
 This project utilizes the following dependencies:
 
-```xml
-<dependency>
-    <groupId>org.apache.pdfbox</groupId>
-    <artifactId>pdfbox</artifactId>
-    <version>2.0.30</version>
-</dependency>
-
-<dependency>
-    <groupId>com.fasterxml.jackson.core</groupId>
-    <artifactId>jackson-databind</artifactId>
-    <version>2.12.3</version>
-</dependency>
-
+| Library                  | Version  |
+|--------------------------|----------|
+| org.apache.pdfbox:pdfbox | 2.0.30   |
+| com.fasterxml.jackson.core:jackson-databind | 2.12.3 |
 
 ## Dependency Management
 
