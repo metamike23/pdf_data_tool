@@ -41,11 +41,15 @@ This project utilizes the following dependencies:
     <version>2.12.3</version>
 </dependency>
 
-## Future Plans
+'''
 
-This project uses Maven for efficient dependency management. Maven helps streamline the build process and ensures smooth integration of project dependencies.
+## Dependency Management
+
+This project uses [Maven](https://maven.apache.org/) for efficient dependency management. Maven helps streamline the build process and ensures smooth integration of project dependencies.
+
+## Future Plans
 
 We plan to integrate the [Spring Boot](https://spring.io/projects/spring-boot) web framework for enhanced front-end capabilities. Stay tuned for exciting updates as we continue to evolve the project!
 
---------------------------------------------------------------------------------------------------
+
 Thank you for choosing the Java PDF Data Extractor. We're committed to continuous improvement, and your feedback is invaluable in shaping the future of this tool. Stay tuned for more updates and enhancements!
