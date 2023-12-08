@@ -87,7 +87,7 @@ public class Base64Stream {
 		Map<String, String> formdata = pdf.extractFormFields(doc);
 		
 		 for (Map.Entry<String, String> entry : formdata.entrySet()) {
-             System.out.println(entry.getKey() + ": " + entry.getValue());
+                    System.out.println(entry.getKey() + ": " + entry.getValue());
          }
 	        
 	       
