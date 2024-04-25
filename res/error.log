@@ -1,0 +1,15 @@
+19:05:07.243 [http-nio-8080-exec-3] ERROR c.s.service.TextExtractService - Error loading the PDF document: en-sent.bin file not found
+19:05:07.250 [http-nio-8080-exec-3] ERROR c.s.controller.TextExtractController - No text extracted for URL: https://www.nasa.gov/sites/default/files/atoms/files/journey-to-mars-next-steps-20151008_508.pdf
+19:05:51.039 [http-nio-8080-exec-4] ERROR c.s.service.TextExtractService - Error loading the PDF document: en-sent.bin file not found
+19:05:51.042 [http-nio-8080-exec-4] ERROR c.s.controller.TextExtractController - No text extracted for URL: https://www.nasa.gov/sites/default/files/atoms/files/journey-to-mars-next-steps-20151008_508.pdf
+19:06:20.243 [http-nio-8080-exec-5] ERROR c.s.service.TextExtractService - Error loading the PDF document: en-sent.bin file not found
+19:06:20.246 [http-nio-8080-exec-5] ERROR c.s.controller.TextExtractController - No text extracted for URL: https://www.nasa.gov/sites/default/files/atoms/files/journey-to-mars-next-steps-20151008_508.pdf
+19:09:14.400 [http-nio-8080-exec-1] ERROR c.s.service.TextExtractService - Error loading the PDF document: en-sent.bin file not found
+19:09:14.417 [http-nio-8080-exec-1] ERROR c.s.controller.TextExtractController - No text extracted for URL: https://www.nasa.gov/sites/default/files/atoms/files/journey-to-mars-next-steps-20151008_508.pdf
+21:11:33.809 [http-nio-8080-exec-2] ERROR c.s.controller.TextExtractController - No text extracted for URL: http://www.mindview.net/Books/TIJ4/ThinkingInJava4e.pdf
+21:12:25.253 [http-nio-8080-exec-2] ERROR c.s.controller.TextExtractController - No text extracted for URL: http://www.mindview.net/Books/TIJ4/ThinkingInJava4e.pdf
+21:13:34.500 [http-nio-8080-exec-5] ERROR c.s.controller.TextExtractController - No text extracted for URL: http://www.mindview.net/Books/TIJ4/ThinkingInJava4e.pdf
+21:14:52.090 [http-nio-8080-exec-2] ERROR c.s.controller.TextExtractController - No text extracted for URL: http://www.mindview.net/Books/TIJ4/ThinkingInJava4e.pdf
+21:15:51.772 [http-nio-8080-exec-3] ERROR c.s.controller.TextExtractController - No text extracted for URL: https://www.example.com/your-pdf-file.pdf
+21:16:01.619 [http-nio-8080-exec-4] ERROR c.s.controller.TextExtractController - No text extracted for URL: https://www.example.com/your-pdf-file.pdf
+21:39:27.082 [http-nio-8080-exec-2] ERROR c.s.controller.TextExtractController - No text extracted for URL: https://www.nasa.gov/sites/default/files/atoms/files/journey-to-mars-next-steps-20151008_508.pdf

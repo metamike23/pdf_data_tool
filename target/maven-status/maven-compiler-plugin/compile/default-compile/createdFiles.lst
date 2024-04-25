@@ -1,0 +1,16 @@
+com\scalablesolutionscloud\controller\TextExtractController$TextExtractRequest.class
+com\scalablesolutionscloud\textextract\DominantFontTextExtractor.class
+com\scalablesolutionscloud\textextract\CharacterCheck.class
+com\scalablesolutionscloud\textextract\SentenceTokenizer.class
+com\scalablesolutionscloud\memory\ModelLoader.class
+com\scalablesolutionscloud\textextract\TextContainerInterface.class
+com\scalablesolutionscloud\textextract\DominantFontTextExtractor$NullWriter.class
+com\scalablesolutionscloud\textextract\FinalTextCleaner.class
+com\scalablesolutionscloud\TextExtractEndpointApplication.class
+com\scalablesolutionscloud\textextract\SentenceCleaner.class
+com\scalablesolutionscloud\textextract\CleanedText.class
+com\scalablesolutionscloud\service\TextExtractService.class
+com\scalablesolutionscloud\controller\TextExtractController.class
+com\scalablesolutionscloud\textextract\TextContainer.class
+com\scalablesolutionscloud\memory\FileDownloader.class
+com\scalablesolutionscloud\models\ExtractedText.class

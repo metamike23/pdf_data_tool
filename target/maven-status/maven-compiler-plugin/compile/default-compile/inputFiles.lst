@@ -1,0 +1,14 @@
+C:\Users\MVP\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Text-Extract-Endpoint\src\main\java\com\scalablesolutionscloud\models\ExtractedText.java
+C:\Users\MVP\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Text-Extract-Endpoint\src\main\java\com\scalablesolutionscloud\textextract\TextContainerInterface.java
+C:\Users\MVP\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Text-Extract-Endpoint\src\main\java\com\scalablesolutionscloud\textextract\TextContainer.java
+C:\Users\MVP\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Text-Extract-Endpoint\src\main\java\com\scalablesolutionscloud\memory\ModelLoader.java
+C:\Users\MVP\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Text-Extract-Endpoint\src\main\java\com\scalablesolutionscloud\textextract\DominantFontTextExtractor.java
+C:\Users\MVP\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Text-Extract-Endpoint\src\main\java\com\scalablesolutionscloud\memory\FileDownloader.java
+C:\Users\MVP\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Text-Extract-Endpoint\src\main\java\com\scalablesolutionscloud\textextract\SentenceCleaner.java
+C:\Users\MVP\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Text-Extract-Endpoint\src\main\java\com\scalablesolutionscloud\controller\TextExtractController.java
+C:\Users\MVP\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Text-Extract-Endpoint\src\main\java\com\scalablesolutionscloud\textextract\SentenceTokenizer.java
+C:\Users\MVP\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Text-Extract-Endpoint\src\main\java\com\scalablesolutionscloud\textextract\CleanedText.java
+C:\Users\MVP\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Text-Extract-Endpoint\src\main\java\com\scalablesolutionscloud\TextExtractEndpointApplication.java
+C:\Users\MVP\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Text-Extract-Endpoint\src\main\java\com\scalablesolutionscloud\textextract\FinalTextCleaner.java
+C:\Users\MVP\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Text-Extract-Endpoint\src\main\java\com\scalablesolutionscloud\service\TextExtractService.java
+C:\Users\MVP\Documents\workspace-spring-tool-suite-4-4.22.0.RELEASE\Text-Extract-Endpoint\src\main\java\com\scalablesolutionscloud\textextract\CharacterCheck.java
